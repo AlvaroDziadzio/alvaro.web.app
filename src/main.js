@@ -1,6 +1,6 @@
-import App from './App.svelte';
+import BaseRouter from './BaseRouter.svelte';
 
-const app = new App({
+const app = new BaseRouter({
 	target: document.body
 });
 
